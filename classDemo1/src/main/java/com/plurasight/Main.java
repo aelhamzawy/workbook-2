@@ -29,6 +29,7 @@ public class Main {
 //        System.out.printf("Person full name is %s \n person age is %d \n person profession is %s: ", FullName, Age, PersonProfession);
 
 
+        Person thePerson = new Person(FullName,Age,PersonProfession);
 
 
     }

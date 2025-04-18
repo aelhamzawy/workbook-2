@@ -31,5 +31,5 @@ public class Person {
     public void setProfession(String profession){
         this.PersonProfession = profession;
     }
-    
+
 }
