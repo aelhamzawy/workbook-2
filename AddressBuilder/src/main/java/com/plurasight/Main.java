@@ -44,6 +44,7 @@ public class Main {
         billingAddressInfo.append(zipCode).append(" ");
 
         String fullBillingAddress =  billingAddressInfo.toString();
+//        checkBillingAddress(fullBillingAddress);
         return  fullBillingAddress;
 
 
@@ -93,4 +94,21 @@ public class Main {
         System.out.printf("Billing Address is %s: \n", ShippingInfo);
 
     }
+
+//    CREATING A FUNCTION TO CHECK IF THE BILLING ADDRESS IS SAME AS SHIPPING ADDRESS OR NOT
+//    public static String checkBillingAddress(String billingAddress){
+//        System.out.print("Is Your Billing Address Same As Your Shipping Address Or Not");
+//        int answer;
+//        Scanner InputScanner = new Scanner(System.in);
+//        System.out.println("ENTER [1] --> Yes \n  [2] --> No");
+//        answer = InputScanner.nextInt();
+//        switch(answer){
+//            case 1:
+//                 System.out.printf("Billing Address is %s: \n", billingAddress);
+//                break;
+//            case 2:
+//                return billingAddress;
+//
+//        }
+//    };
 }
